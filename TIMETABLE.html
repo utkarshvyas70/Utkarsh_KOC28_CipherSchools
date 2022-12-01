@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+                :root{
+    --primary-color:#999999;
+    --secondary-color:#636e72;
+    --font:'Poppins', sans-serif;
+}
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    outline: none; border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: all .2s linear;
+}
+body{
+    background-image: url("https://www.shutterstock.com/image-photo/muscular-man-showing-muscles-on-260nw-1686329977.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 85vh;
+}
+.title{
+    color: white;
+    text-align: center;
+    border: 5px solid var(--primary-color);
+     }
+.table{
+    position: absolute;
+    z-index: 2;
+    left: 63%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: 60%;
+    height: 400px;
+    text-align: center;
+    border-collapse: collapse;
+    border-spacing: 0;
+    border-radius: 12px 12px 0 0;
+    box-shadow: 0 12px 5px rgba(32,32,32,.3);
+    
+}
+th,td{
+    background: #999999;
+}
+
+       
+
+
+    </style>
+</head>
+<body>
+    <div class="title">
+        <h1>Time Table</h1>
+    </div>
+    <div class="table">
+        <table>
+            <caption style="color:white ;"><h1>Routine</h1> </caption>
+            <tr>
+                <th>Day</th>
+                <th>Part</th>
+                <th>Workout</th>
+            </tr>
+
+            <tr>
+                <td>Monday</td>
+                <td>Chest</td>
+                <td>10 incline pushups<br>10 decline pushups<br>10 normal pushups<br> 20*4 butterflies<br>15*4 bench press
+                </td>
+            </tr>
+
+            <tr>
+                <td>Tuesday</td>
+                <td>Shoulders</td>
+                <td>20*4 pullups<br>10*4 Miliatry press<br>10*4 Shrugs<br>20*4 Side raises<br>20*4 Front raises
+                </td>
+            </tr>
+
+            <tr>
+                <td>Wednesday</td>
+                <td>Arms</td>
+                <td>10*4 Bicep curls<br>10*4 Rope curls<br>10*4 Barbell curls<br>10*4 Rope pull down<br>10*4 Bench dips
+                </td>
+            </tr>
+
+            <tr>
+                <td>Thrusday</td>
+                <td>Back</td>
+                <td>20 Pull ups<br>20*4 Lat pull down<br>20*4 Back Contraction<br>Deadlifts<br>Reverse butterflies
+                </td>
+            </tr>
+
+            <tr>
+                <td>Friday</td>
+                <td>Full Body</td>
+                <td>30 min Zumba Class<br>10 min Cross trainer<br>10 min inclined treadmill<br>10 min normal treadmill<br>Stretching
+                </td>
+            </tr>
+
+            <tr>
+                <td>Saturday</td>
+                <td>Legs</td>
+                <td>Treadmill<br>Dumbbell Running<br>Leg press<br>Wight PullCalf Contraction
+                </td>
+            </tr>
+
+            <tr>
+                <td>Sunday</td>
+                <td>Rest</td>
+                <td>Khaao<br>Pio<br>Esh<br>Kara<br>Mitro
+                </td>
+            </tr>
+
+    </div>             
+        </table>
+</body>
+</html>
